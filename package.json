@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "scripts": {
-    "watch": "survivor server.js"
+    "watch": "supervisor server.js"
   },
   "author": {
     "name": "MeMue Group",

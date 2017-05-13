@@ -32,12 +32,8 @@ module.exports = {
       ]
    },
    plugins: [
-      new webpack.EnvironmentPlugin({
-        NODE_ENV: 'production'
-      }),
       new webpack.ProvidePlugin({
          "lodash": "_",
       })
    ]
 };
-
